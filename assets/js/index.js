@@ -39,3 +39,5 @@ const validator = new RangeValidator(10, 50);
 console.log(validator.range);
 console.log(validator.from);
 console.log(validator.to);
+console.log(validator.validate(26));
+console.log(validator.validate(9));
